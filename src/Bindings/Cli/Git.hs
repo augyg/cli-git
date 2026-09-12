@@ -22,6 +22,7 @@ import Control.Applicative hiding (many)
 import Control.Monad.Catch (MonadMask)
 import Control.Monad.Except
 import Control.Monad.Fail
+import Control.Monad.IO.Class (MonadIO (..))
 import Control.Monad.Log
 import Data.Bool (bool)
 import Data.Bifunctor
