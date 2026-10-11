@@ -19,6 +19,7 @@ module Bindings.Cli.Git
   ) where
 
 import Control.Applicative hiding (many)
+import Control.Monad (void)
 import Control.Monad.Catch (MonadMask)
 import Control.Monad.Except
 import Control.Monad.Fail
